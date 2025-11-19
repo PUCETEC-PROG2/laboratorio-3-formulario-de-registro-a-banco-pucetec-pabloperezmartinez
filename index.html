@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio 3 - PUCE Banco</title>
 </head>
+
 <body>
     <h1>Laboratorio 3 - PUCE Banco</h1>
-    <p>Bienvenido al laboratorio 3 del curso de Desarrollo de Aplicaciones Web. En este laboratorio, implementaremos una aplicación web para un banco ficticio llamado PUCE Banco.</p>
-    <h2>Nombre del estudiante: [Tu Nombre Aquí]</h2>
-    <!-- Aquí irá el formulario -->
+    <p>Bienvenido al laboratorio 3 del curso de Desarrollo de Aplicaciones Web. En este laboratorio, implementaremos una
+        aplicación web para un banco ficticio llamado PUCE Banco.</p>
+    <h2>Nombre del estudiante: Pablo Pérez Martínez</h2>
+
+    <form action="#" method="post">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" name="nombre" type="text" placeholder="Nombre del cliente" required />
+        </div>
+
+        <div>
+            <label for="apellidoPaterno">Apellido Paterno:</label>
+            <input id="apellidoPaterno" name="apellidoPaterno" type="text" placeholder="Apellido paterno del cliente"
+                required />
+        </div>
+
+        <div>
+            <label for="apellidoMaterno">Apellido Materno:</label>
+            <input id="apellidoMaterno" name="apellidoMaterno" type="text" placeholder="Apellido materno del cliente"
+                required />
+        </div>
+
+        <div>
+            <button type="submit">Confirmar</button>
+        </div>
+    </form>
 </body>
+
 </html>
